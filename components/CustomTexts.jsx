@@ -17,7 +17,7 @@ export const TypingText = ({ title, textStyles }) => (
   </motion.p>
 );
 
-export const TitleText = ({title, textStyles}) => (
+export const TitleText = ({ title, textStyles }) => (
   <motion.h2
   variants={textVariant2}
   initial="hidden"
